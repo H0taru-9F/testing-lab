@@ -8,5 +8,4 @@
 /dataSources.local.xml
 .idea
 /package-lock.json
-/lab3/node_modules/
-/lab3/package-lock.json
+/node_modules/

@@ -1,5 +1,5 @@
 {
-  "name": "lab3",
+  "name": "testing-lab",
   "version": "1.0.0",
   "description": "",
   "main": "functions.js",
@@ -12,9 +12,10 @@
   },
   "private": true,
   "devDependencies": {
-    "jest": "^29.0.0",
-    "babel-jest": "^29.0.0",
     "@babel/core": "^7.20.0",
-    "@babel/preset-env": "^7.20.0"
+    "@babel/preset-env": "^7.26.9",
+    "babel-jest": "^29.7.0",
+    "jest": "^29.7.0",
+    "supertest": "^7.1.0"
   }
 }
