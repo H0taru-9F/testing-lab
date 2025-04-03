@@ -6,7 +6,7 @@
   "scripts": {
     "jest:run": "jest",
     "playwright:run": "npx playwright test --config=playwright.config.js",
-    "test": "npm-run-all --parallel jest:run playwright:run"
+    "test": "npm-run-all --serial jest:run playwright:run"
   },
   "repository": {
     "type": "git",
