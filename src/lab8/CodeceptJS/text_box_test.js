@@ -7,7 +7,7 @@ Scenario('Заповнення текстових полів та перевір
     I.fillField('#currentAddress', '321 Example Rd');
     I.fillField('#permanentAddress', '654 Demo St');
     I.click('#submit');
-    I.waitForElement('#output', 10); // Збільшено час очікування
+    I.waitForElement('#output', 10);
     const outputText = await I.grabTextFrom("#output");
     console.log(outputText);
 

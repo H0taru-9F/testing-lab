@@ -11,7 +11,6 @@ const puppeteer = require('puppeteer');
     await page.type('#permanentAddress', '101 Test Ave');
     await page.click('#submit');
 
-    // Чекаємо, поки з’явиться результат
     await page.waitForSelector('#output');
     const output = await page.$eval('#output', el => el.textContent);
 
